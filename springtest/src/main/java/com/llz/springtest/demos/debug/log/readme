@@ -1,0 +1,10 @@
+1、Log -> Breakpoint hit message
+断点位置信息, exp:
+Breakpoint reached at com.llz.springtest.demos.debug.log.LogTest.test(LogTest.java:10)
+2、Log -> Stack trace
+断点堆栈信息跟踪, exp:
+Breakpoint reached
+	at com.llz.springtest.demos.debug.log.LogTest.test(LogTest.java:10)
+	at com.llz.springtest.demos.debug.log.LogTest.main(LogTest.java:6)
+3、Evaluate and log
+相当于 Alt + F8 计算 并 自动输出结果
