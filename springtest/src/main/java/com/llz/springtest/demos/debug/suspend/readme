@@ -1,0 +1,4 @@
+suspend: 不勾选(此时颜色是黄色的)
+一般结合断点Log，用于打印信心
+suspend + All: 挂起所有线程
+suspend + Thread: 仅挂起当前线程
